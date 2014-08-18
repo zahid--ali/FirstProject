@@ -14,8 +14,13 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.csit.firstproject.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
